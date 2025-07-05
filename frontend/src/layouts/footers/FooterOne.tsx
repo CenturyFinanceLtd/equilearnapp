@@ -89,12 +89,12 @@ const FooterOne = ({style_2} : any) => {
                     </div>
                 </div>
                 <div className={`footer-bottom wow fadeInUp ${style_2 ? "style-4" : ""}`} data-wow-delay=".3s">
-                    <p>Copyright © <Link href="/">Century Finance Limited</Link>, all rights reserved.</p>
+                    <p>Copyright © <Link href="/">Eduspace</Link>, all rights reserved.</p>
                 </div>
             </div>
             <div className={`footer-name ${style_2 ? "style-2" : ""}`}>
                 <h2>
-                    Equilearn
+                    Eduspace
                 </h2>
             </div>
         </footer>
