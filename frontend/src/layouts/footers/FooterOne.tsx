@@ -15,7 +15,7 @@ const FooterOne = ({style_2} : any) => {
                                     <Link href="/">
                                         {style_2 ? <img src="assets/img/logo/black-logo-2.svg" alt="img" /> 
                                         :                                        
-                                        <img src="assets/img/logo/white-logo.svg" alt="img" />
+                                        <img src="assets/img/logo/white-logo.png" alt="img" />
                                         }
                                     </Link>
                                 </div>
