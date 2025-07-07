@@ -68,7 +68,7 @@ const menu_data:DataType[] = [
 	{
 		id: 3,
 		title: "Online Courses",
-		link: "#",
+		link: "online-courses",
     icon: "fas fa-book",
 		has_dropdown: true,
 		sub_menus: [
