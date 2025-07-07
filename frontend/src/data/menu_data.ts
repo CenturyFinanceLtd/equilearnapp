@@ -53,8 +53,8 @@ const menu_data:DataType[] = [
 	},
 	{
 		id: 2,
-		title: "Courses",
-		link: "#",
+		title: "Training Program",
+		link: "/training-program",
     icon: "fas fa-book",
 		has_dropdown: true,
 		sub_menus: [
@@ -67,9 +67,9 @@ const menu_data:DataType[] = [
 	},
 	{
 		id: 3,
-		title: "Events",
+		title: "Online Courses",
 		link: "#",
-    icon: "fas fa-gift",
+    icon: "fas fa-book",
 		has_dropdown: true,
 		sub_menus: [
 			{ link: "/event", title: "event" },

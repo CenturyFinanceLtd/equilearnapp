@@ -25,9 +25,9 @@ const FeatureHomeOne = () => {
                             <i className="flaticon-online-education"></i>
                         </div>
                         <div className="content">
-                            <h3>302+ Online Courses</h3>
+                            <h3>150+ Online Courses</h3>
                             <p>
-                                Expert instructors play a pivotal role in the learning process
+                                Access expert-led online courses anytime, anywhere to achieve your goals
                             </p>
                         </div>
                     </div>
@@ -38,9 +38,9 @@ const FeatureHomeOne = () => {
                             <i className="flaticon-community"></i>   
                         </div>
                         <div className="content">
-                            <h3>8,000 Membership</h3>
+                            <h3>100k+ Demo classes</h3>
                             <p>
-                                Expert instructors play a pivotal role in the learning process
+                                Join 100k+ demo classes and explore your endless potential today.
                             </p>
                         </div>
                     </div>
@@ -51,9 +51,9 @@ const FeatureHomeOne = () => {
                             <i className="flaticon-membership"></i>    
                         </div>
                         <div className="content">
-                            <h3>Online Certificate</h3>
+                            <h3>50k+ Members</h3>
                             <p>
-                                Expert instructors play a pivotal role in the learning process
+                                Experience the power of 50k+ members connecting, collaborating, and succeeding.
                             </p>
                         </div>
                     </div>
@@ -64,9 +64,9 @@ const FeatureHomeOne = () => {
                             <i className="flaticon-group"></i>    
                         </div>
                         <div className="content">
-                            <h3>5k+ Active Students</h3>
+                            <h3>100k+ Students</h3>
                             <p>
-                                Expert instructors play a pivotal role in the learning process
+                                Join 100k+ students already learning and achieving their goals today
                             </p>
                         </div>
                     </div>

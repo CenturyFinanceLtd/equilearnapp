@@ -94,7 +94,7 @@ const FooterOne = ({style_2} : any) => {
             </div>
             <div className={`footer-name ${style_2 ? "style-2" : ""}`}>
                 <h2>
-                    Eduspace
+                    EquiLearn
                 </h2>
             </div>
         </footer>
