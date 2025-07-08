@@ -16,10 +16,21 @@ const CoursesArea = () => {
   const selectHandler = (e: any) => {};
 
   useEffect(() => {
-    fetch("http://localhost:5000/api/courses")
-      .then((res) => res.json())
-      .then((data) => setCourses(data))
-      .catch((err) => console.error(err));
+    const fetchCourses = async () => {
+      try {
+        const res = await fetch("http://localhost:4000/api/courses");
+
+        if (!res.ok) {
+          throw new Error(`Request failed with status ${res.status}`);
+        }
+        const data = await res.json();
+        setCourses(data);
+      } catch (err) {
+        console.error("Failed to fetch courses:", err);
+      }
+    };
+
+    fetchCourses();
   }, []);
 
   return (
@@ -100,18 +111,18 @@ const CoursesArea = () => {
                       <h3>
                         <Link href="/courses-details">{course.courseName}</Link>
                       </h3>
-                      <div className="client-items">
+                      {/* <div className="client-items">
                         <div
                           className="client-img bg-cover"
                           style={{
                             background: `url(/assets/img/courses/client-1.png)`,
                           }}></div>
                         <p>Paul C. Deleon</p>
-                      </div>
+                      </div> */}
                       <ul className="post-class">
                         <li>
                           <i className="far fa-books"></i>
-                          {course.modules?.length || 0} Lessons
+                          {course.modules?.length || 0} Modules
                         </li>
                         <li>
                           <i className="far fa-user"></i>
