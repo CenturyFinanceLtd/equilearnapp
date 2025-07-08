@@ -39,7 +39,7 @@ const CoursesArea = () => {
                             <div className="courses-card-items style-2">
                                 <div className="courses-image">
                                     <img src="assets/img/courses/09.jpg" alt="img" />
-                                    <h3 className="courses-title">Foundation Course</h3>
+                                    <h3 className="courses-title"></h3>
                                     <h4 className="topic-title">25% Off</h4>
                                     <div className="arrow-items">
                                         <div className="GlidingArrow">
@@ -77,7 +77,7 @@ const CoursesArea = () => {
                                     </ul>
                                     <h3>
                                         <Link href="/courses-details">
-                                            Equity Market  ||  Index  ||  Global Finance  ||  Trading Platform  ||  Market Trends  ||  Securities
+                                           Foundation Course
                                         </Link>
                                     </h3>
                                     <div className="client-items">
@@ -106,7 +106,7 @@ const CoursesArea = () => {
                             <div className="courses-card-items style-2">
                                 <div className="courses-image">
                                     <img src="assets/img/courses/10.jpg" alt="img" />
-                                    <h3 className="courses-title">Ignite Course</h3>
+                                    <h3 className="courses-title"></h3>
                                     <h4 className="topic-title">25% Off</h4>
                                     <div className="arrow-items">
                                         <div className="GlidingArrow">
@@ -144,7 +144,7 @@ const CoursesArea = () => {
                                     </ul>
                                     <h3>
                                         <Link href="/courses-details">
-                                            Equities  ||  Indices  ||  Commodities  ||  Market  ||  Charting  ||  Breakouts  ||  Support  ||  Resistance
+                                           Ignite Course
                                         </Link>
                                     </h3>
                                     <div className="client-items">
@@ -173,7 +173,7 @@ const CoursesArea = () => {
                             <div className="courses-card-items style-2">
                                 <div className="courses-image">
                                     <img src="assets/img/courses/11.jpg" alt="img" />
-                                    <h3 className="courses-title">Explorer Course</h3>
+                                    <h3 className="courses-title"></h3>
                                     <h4 className="topic-title">25% Off <br /> </h4>
                                     <div className="arrow-items">
                                         <div className="GlidingArrow">
@@ -211,7 +211,7 @@ const CoursesArea = () => {
                                     </ul>
                                     <h3>
                                         <Link href="/courses-details">
-                                           Pattern Recognition  ||  Market Interpretation  ||  Derivatives  ||  Financial Mindset  ||  Forecasting  ||  Risk Management  ||  Investing
+                                           Explorer Course
                                         </Link>
                                     </h3>
                                     <div className="client-items">
@@ -240,7 +240,7 @@ const CoursesArea = () => {
                             <div className="courses-card-items style-2">
                                 <div className="courses-image">
                                     <img src="assets/img/courses/12.jpg" alt="img" />
-                                    <h3 className="courses-title">Advance Edge Course</h3>
+                                    <h3 className="courses-title"></h3>
                                     <h4 className="topic-title">25% Off <br /> </h4>
                                     <div className="arrow-items">
                                         <div className="GlidingArrow">
@@ -278,7 +278,7 @@ const CoursesArea = () => {
                                     </ul>
                                     <h3>
                                         <Link href="/courses-details">
-                                            Technical Analysis  ||  Market Psychology  ||  Entry/Exit Strategy  ||  Derivatives Trading  ||  Financial Acumen  ||  Risk Management  ||  Market Interpretation
+                                            Advance Edge Course
                                         </Link>
                                     </h3>
                                     <div className="client-items">
@@ -307,7 +307,7 @@ const CoursesArea = () => {
                             <div className="courses-card-items style-2">
                                 <div className="courses-image">
                                     <img src="assets/img/courses/13.jpg" alt="img" />
-                                    <h3 className="courses-title">Trader Pro Course</h3>
+                                    <h3 className="courses-title"></h3>
                                     <h4 className="topic-title">25% Off <br /> </h4>
                                     <div className="arrow-items">
                                         <div className="GlidingArrow">
@@ -345,7 +345,7 @@ const CoursesArea = () => {
                                     </ul>
                                     <h3>
                                         <Link href="/courses-details">
-                                           Macroeconomic Awareness  ||  Advanced Technical Analysis  ||  Derivatives Expertise  ||  Breakout Strategies  ||  BreakDown Strategies  ||  Emotional Discipline  ||  Consistency
+                                           Trader Pro Course
                                         </Link>
                                     </h3>
                                     <div className="client-items">
@@ -374,7 +374,7 @@ const CoursesArea = () => {
                             <div className="courses-card-items style-2">
                                 <div className="courses-image">
                                     <img src="assets/img/courses/14.jpg" alt="img" />
-                                    <h3 className="courses-title">Market Master Course</h3>
+                                    <h3 className="courses-title"></h3>
                                     <h4 className="topic-title">25% Off</h4>
                                     <div className="arrow-items">
                                         <div className="GlidingArrow">
@@ -412,7 +412,7 @@ const CoursesArea = () => {
                                     </ul>
                                     <h3>
                                         <Link href="/courses-details">
-                                            Index Interpretation  ||  Comparative Analysis  ||  Technical Indicators  ||  Volume Analysis  ||  Capital Management  ||  Risk Mastery  ||  Strategic Planning
+                                           Market Master Course
                                         </Link>
                                     </h3>
                                     <div className="client-items">
@@ -443,7 +443,7 @@ const CoursesArea = () => {
                         <li><a className="page-numbers" href="#">2</a></li>
                         <li><a className="page-numbers" href="#">3</a></li>
                         <li><a className="page-numbers" href="#">4</a></li>
-                        <li><a className="page-numbers" href="#"><i className="far fa-arrow-right"></i></a></li> 
+                        <li><a className="page-numbers" href="#"><i className="far fa-arrow-right"></i></a></li>
                     </ul>
                 </div>
             </div>
