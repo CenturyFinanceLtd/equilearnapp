@@ -26,19 +26,13 @@ const BreadcrumbCoursesDetails = () => {
                     <li className="style-2"> Course Details</li>
                 </ul>
                 <div className="breadcrumb-content">
-                    <h1>Advance UX/UI Design Using Figma</h1>
+                    <h1>Foundation Course</h1>
                     <div className="courses-breadcrumb-items">
-                        <div className="client-image-items">
-                            <img src="assets/img/courses/client-3.png" alt="img" />
-                            <div className="client-content">
-                                <span>Instructor</span>
-                                <h5>Patrick C. Amore</h5>
-                            </div>
-                        </div>
+                       
                         <div className="client-image-items">
                             <div className="client-content">
-                                <span>Instructor</span>
-                                <h5>Web Design</h5>
+                                <span>Category</span>
+                                <h5>Stocks</h5>
                             </div>
                         </div>
                         <div className="client-image-items">
