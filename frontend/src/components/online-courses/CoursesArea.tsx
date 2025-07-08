@@ -39,8 +39,8 @@ const CoursesArea = () => {
                             <div className="courses-card-items style-2">
                                 <div className="courses-image">
                                     <img src="assets/img/courses/09.jpg" alt="img" />
-                                    <h3 className="courses-title">Web Design</h3>
-                                    <h4 className="topic-title">Advance Web Design</h4>
+                                    <h3 className="courses-title">Foundation Course</h3>
+                                    <h4 className="topic-title">25% Off</h4>
                                     <div className="arrow-items">
                                         <div className="GlidingArrow">
                                             <img src="assets/img/courses/a1.png" alt="img" />
@@ -65,7 +65,7 @@ const CoursesArea = () => {
                                 <div className="courses-content">
                                     <ul className="post-cat">
                                         <li>
-                                            <Link href="/courses">Design</Link>
+                                            <Link href="/courses">Stocks</Link>
                                         </li>
                                         <li>
                                             <i className="fas fa-star"></i>
@@ -77,8 +77,7 @@ const CoursesArea = () => {
                                     </ul>
                                     <h3>
                                         <Link href="/courses-details">
-                                            Learn With Advance Web
-                                            Design (UX/UI) Course
+                                            Equity Market  ||  Index  ||  Global Finance  ||  Trading Platform  ||  Market Trends  ||  Securities
                                         </Link>
                                     </h3>
                                     <div className="client-items">
@@ -107,8 +106,8 @@ const CoursesArea = () => {
                             <div className="courses-card-items style-2">
                                 <div className="courses-image">
                                     <img src="assets/img/courses/10.jpg" alt="img" />
-                                    <h3 className="courses-title">Business Finance</h3>
-                                    <h4 className="topic-title">Finance and Business</h4>
+                                    <h3 className="courses-title">Ignite Course</h3>
+                                    <h4 className="topic-title">25% Off</h4>
                                     <div className="arrow-items">
                                         <div className="GlidingArrow">
                                             <img src="assets/img/courses/a1.png" alt="img" />
@@ -133,7 +132,7 @@ const CoursesArea = () => {
                                 <div className="courses-content">
                                     <ul className="post-cat">
                                         <li>
-                                            <Link href="/courses">Business</Link>
+                                            <Link href="/courses">Stocks</Link>
                                         </li>
                                         <li>
                                             <i className="fas fa-star"></i>
@@ -145,8 +144,7 @@ const CoursesArea = () => {
                                     </ul>
                                     <h3>
                                         <Link href="/courses-details">
-                                            Finance Management Building
-                                            Wealth Security Business
+                                            Equities  ||  Indices  ||  Commodities  ||  Market  ||  Charting  ||  Breakouts  ||  Support  ||  Resistance
                                         </Link>
                                     </h3>
                                     <div className="client-items">
@@ -175,8 +173,8 @@ const CoursesArea = () => {
                             <div className="courses-card-items style-2">
                                 <div className="courses-image">
                                     <img src="assets/img/courses/11.jpg" alt="img" />
-                                    <h3 className="courses-title">Programming</h3>
-                                    <h4 className="topic-title">Advance Machine <br /> Learning</h4>
+                                    <h3 className="courses-title">Explorer Course</h3>
+                                    <h4 className="topic-title">25% Off <br /> </h4>
                                     <div className="arrow-items">
                                         <div className="GlidingArrow">
                                             <img src="assets/img/courses/a1.png" alt="img" />
@@ -201,7 +199,7 @@ const CoursesArea = () => {
                                 <div className="courses-content">
                                     <ul className="post-cat">
                                         <li>
-                                            <Link href="/courses">Programming</Link>
+                                            <Link href="/courses">Stocks</Link>
                                         </li>
                                         <li>
                                             <i className="fas fa-star"></i>
@@ -213,7 +211,7 @@ const CoursesArea = () => {
                                     </ul>
                                     <h3>
                                         <Link href="/courses-details">
-                                            Introduction to Data Science and Machine Learning
+                                           Pattern Recognition  ||  Market Interpretation  ||  Derivatives  ||  Financial Mindset  ||  Forecasting  ||  Risk Management  ||  Investing
                                         </Link>
                                     </h3>
                                     <div className="client-items">
@@ -242,8 +240,8 @@ const CoursesArea = () => {
                             <div className="courses-card-items style-2">
                                 <div className="courses-image">
                                     <img src="assets/img/courses/12.jpg" alt="img" />
-                                    <h3 className="courses-title">Digital Marketing</h3>
-                                    <h4 className="topic-title">Advance Digital <br /> Marketing</h4>
+                                    <h3 className="courses-title">Advance Edge Course</h3>
+                                    <h4 className="topic-title">25% Off <br /> </h4>
                                     <div className="arrow-items">
                                         <div className="GlidingArrow">
                                             <img src="assets/img/courses/a1.png" alt="img" />
@@ -268,7 +266,7 @@ const CoursesArea = () => {
                                 <div className="courses-content">
                                     <ul className="post-cat">
                                         <li>
-                                            <Link href="/courses">Marketing</Link>
+                                            <Link href="/courses">Stocks</Link>
                                         </li>
                                         <li>
                                             <i className="fas fa-star"></i>
@@ -280,8 +278,7 @@ const CoursesArea = () => {
                                     </ul>
                                     <h3>
                                         <Link href="/courses-details">
-                                            Digital Marketing for Business
-                                            Grow and Success Sales
+                                            Technical Analysis  ||  Market Psychology  ||  Entry/Exit Strategy  ||  Derivatives Trading  ||  Financial Acumen  ||  Risk Management  ||  Market Interpretation
                                         </Link>
                                     </h3>
                                     <div className="client-items">
@@ -310,8 +307,8 @@ const CoursesArea = () => {
                             <div className="courses-card-items style-2">
                                 <div className="courses-image">
                                     <img src="assets/img/courses/13.jpg" alt="img" />
-                                    <h3 className="courses-title">Graphic Design</h3>
-                                    <h4 className="topic-title">Graphic Design <br /> Masterclass</h4>
+                                    <h3 className="courses-title">Trader Pro Course</h3>
+                                    <h4 className="topic-title">25% Off <br /> </h4>
                                     <div className="arrow-items">
                                         <div className="GlidingArrow">
                                             <img src="assets/img/courses/a1.png" alt="img" />
@@ -336,7 +333,7 @@ const CoursesArea = () => {
                                 <div className="courses-content">
                                     <ul className="post-cat">
                                         <li>
-                                            <Link href="/courses">Graphics</Link>
+                                            <Link href="/courses">Stocks</Link>
                                         </li>
                                         <li>
                                             <i className="fas fa-star"></i>
@@ -348,8 +345,7 @@ const CoursesArea = () => {
                                     </ul>
                                     <h3>
                                         <Link href="/courses-details">
-                                            Complete to Advance Graphic
-                                            Design Masterclass
+                                           Macroeconomic Awareness  ||  Advanced Technical Analysis  ||  Derivatives Expertise  ||  Breakout Strategies  ||  BreakDown Strategies  ||  Emotional Discipline  ||  Consistency
                                         </Link>
                                     </h3>
                                     <div className="client-items">
@@ -378,8 +374,8 @@ const CoursesArea = () => {
                             <div className="courses-card-items style-2">
                                 <div className="courses-image">
                                     <img src="assets/img/courses/14.jpg" alt="img" />
-                                    <h3 className="courses-title">Leadership</h3>
-                                    <h4 className="topic-title">Communication Skills</h4>
+                                    <h3 className="courses-title">Market Master Course</h3>
+                                    <h4 className="topic-title">25% Off</h4>
                                     <div className="arrow-items">
                                         <div className="GlidingArrow">
                                             <img src="assets/img/courses/a1.png" alt="img" />
@@ -404,7 +400,7 @@ const CoursesArea = () => {
                                 <div className="courses-content">
                                     <ul className="post-cat">
                                         <li>
-                                            <Link href="/courses">Leadership</Link>
+                                            <Link href="/courses">Stocks</Link>
                                         </li>
                                         <li>
                                             <i className="fas fa-star"></i>
@@ -416,8 +412,7 @@ const CoursesArea = () => {
                                     </ul>
                                     <h3>
                                         <Link href="/courses-details">
-                                            Effective Communication and
-                                            Leadership Skills
+                                            Index Interpretation  ||  Comparative Analysis  ||  Technical Indicators  ||  Volume Analysis  ||  Capital Management  ||  Risk Mastery  ||  Strategic Planning
                                         </Link>
                                     </h3>
                                     <div className="client-items">
