@@ -6,8 +6,15 @@ const courseRoutes = require("./routes/courseRoutes");
 const app = express();
 const PORT = process.env.PORT || 4000;
 
-// Middleware
-app.use(cors());
+// ✅ Proper CORS for production
+app.use(
+  cors({
+    origin: ["https://equilearnapp.com", "https://www.equilearnapp.com"],
+    methods: ["GET", "POST", "PUT", "DELETE"],
+    credentials: true,
+  })
+);
+
 app.use(express.json());
 
 // Connect to MongoDB
@@ -15,7 +22,6 @@ connectDB();
 
 // Routes
 app.use("/api/courses", courseRoutes);
-
 
 // Default route
 app.get("/", (req, res) => {
