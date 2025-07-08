@@ -18,7 +18,10 @@ const CoursesArea = () => {
   useEffect(() => {
     const fetchCourses = async () => {
       try {
-        const res = await fetch("https://api.equilearnapp.com/api/courses");
+        const res = await fetch(
+          `${process.env.NEXT_PUBLIC_API_URL}/api/courses`
+        );
+
 
         if (!res.ok) {
           throw new Error(`Request failed with status ${res.status}`);
