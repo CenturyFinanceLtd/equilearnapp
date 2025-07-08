@@ -7,11 +7,23 @@ const courseRoutes = require("./routes/courseRoutes");
 const app = express();
 const PORT = process.env.PORT || 4001;
 
-// ✅ Proper CORS for production
+// ✅ Allow localhost and production domains
+const allowedOrigins = [
+  "https://equilearnapp.com",
+  "https://www.equilearnapp.com",
+  "http://localhost:3001",
+];
+
 app.use(
   cors({
-    origin: ["https://equilearnapp.com", "https://www.equilearnapp.com"],
-    methods: ["GET", "POST", "PUT", "DELETE"],
+    origin: function (origin, callback) {
+      if (!origin || allowedOrigins.includes(origin)) {
+        callback(null, true);
+      } else {
+        callback(new Error("Not allowed by CORS"));
+      }
+    },
+    methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     credentials: true,
   })
 );
