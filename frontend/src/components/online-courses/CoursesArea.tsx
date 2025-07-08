@@ -443,7 +443,7 @@ const CoursesArea = () => {
                         <li><a className="page-numbers" href="#">2</a></li>
                         <li><a className="page-numbers" href="#">3</a></li>
                         <li><a className="page-numbers" href="#">4</a></li>
-                        <li><a className="page-numbers" href="#"><i className="far fa-arrow-right"></i></a></li>
+                        <li><a className="page-numbers" href="#"><i className="far fa-arrow-right"></i></a></li> 
                     </ul>
                 </div>
             </div>
