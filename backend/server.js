@@ -5,7 +5,7 @@ const connectDB = require("./db");
 const courseRoutes = require("./routes/courseRoutes");
 
 const app = express();
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 4001;
 
 // ✅ Proper CORS for production
 app.use(
