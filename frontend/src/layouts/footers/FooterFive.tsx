@@ -106,7 +106,7 @@ const FooterFive = () => {
             <div className="footer-bottom style-3 style-5">
                 <div className="container">
                     <div className="footer-bottom-wrapper">
-                        <p className="wow fadeInUp" data-wow-delay=".3s">Copyright © <Link href="/">Eduspace</Link>, all rights reserved.</p>
+                        <p className="wow fadeInUp" data-wow-delay=".3s">Copyright © <Link href="/">EquiLearn</Link>, all rights reserved.</p>
                         <ul className="footer-menu wow fadeInUp" data-wow-delay=".5s">
                             <li>
                                 <Link href="/courses">

@@ -68,20 +68,15 @@ const FooterOne = ({style_2} : any) => {
                                 </div>
                                 <div className="footer-content">
                                     <ul className="contact-info">
+                                       
                                         <li>
-                                            55 Main Street, 2nd block
-                                            Malborne, Australia
+                                           Iconic Corenthum, 5th floor, Tower C, Block A, Industrial Areas Sector 62, Noida, Uttar Pradesh, 201301
                                         </li>
                                         <li>
-                                            55 Main Street, 2nd block
-                                            Malborne, Australia
+                                            <a href="mailto:info@example.com" className="link">general-inquiry@centuryfinancelimited.com</a>
+                                            
                                         </li>
-                                        <li>
-                                            <a href="mailto:info@example.com" className="link">info@example.com</a>
-                                        </li>
-                                        <li>
-                                            <a href="tel:+0001238899">+000 (123) 88 99</a>
-                                        </li>
+                                        
                                     </ul>
                                 </div>
                             </div>
@@ -89,7 +84,7 @@ const FooterOne = ({style_2} : any) => {
                     </div>
                 </div>
                 <div className={`footer-bottom wow fadeInUp ${style_2 ? "style-4" : ""}`} data-wow-delay=".3s">
-                    <p>Copyright © <Link href="/">Eduspace</Link>, all rights reserved.</p>
+                    <p>Copyright © <Link href="/">EquiLearn</Link>, all rights reserved.</p>
                 </div>
             </div>
             <div className={`footer-name ${style_2 ? "style-2" : ""}`}>
