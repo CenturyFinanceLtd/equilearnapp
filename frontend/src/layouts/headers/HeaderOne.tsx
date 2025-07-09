@@ -45,7 +45,7 @@ const HeaderOne = () => {
                                     { value: "02", text: "Web Design" },
                                     { value: "03", text: "Web Development" },
                                     { value: "04", text: "Graphic Design" },
-                                    { value: "05", text: "Software Eng" },
+                                    { value: "05", text: "Software Development" },
                                   ]}
                                   defaultCurrent={0}
                                   onChange={selectHandler}
