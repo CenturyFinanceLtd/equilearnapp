@@ -24,4 +24,18 @@ router.post("/add", async (req, res) => {
   }
 });
 
+// GET single course by slug
+router.get('/:slug', async (req, res) => {
+  try {
+    const course = await Course.findOne({ slug: req.params.slug });
+    if (!course) {
+      return res.status(404).json({ error: 'Course not found' });
+    }
+    res.json(course);
+  } catch (err) {
+    console.error(err);
+    res.status(500).json({ error: 'Failed to fetch course', details: err });
+  }
+});
+
 module.exports = router;

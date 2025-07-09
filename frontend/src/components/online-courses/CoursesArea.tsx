@@ -6,6 +6,7 @@ import React, { useEffect, useState } from "react";
 interface Course {
   _id: string;
   courseName: string;
+  slug: string;
   coursesPageImage: string;
   modules: { title: string; description: string }[];
 }
@@ -112,7 +113,7 @@ const CoursesArea = () => {
                         </li>
                       </ul>
                       <h3>
-                        <Link href="/courses-details">{course.courseName}</Link>
+                        <Link href={`/online-courses/${course.slug}`}>{course.courseName}</Link>
                       </h3>
                       {/* <div className="client-items">
                         <div
@@ -132,7 +133,7 @@ const CoursesArea = () => {
                           80 Students
                         </li>
                         <li>
-                          <Link href="/courses-details" className="theme-btn">
+                          <Link href={`/online-courses/${course.slug}`} className="theme-btn">
                             Enroll Now
                           </Link>
                         </li>
