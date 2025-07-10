@@ -6,15 +6,19 @@ import React from 'react';
 import CoursesDetailsArea from './CoursesDetailsArea';
 import RelatedCourses from './RelatedCourses';
 
-const CoursesDetails = () => {
+interface CoursesDetailsProps {
+  course?: { courseName?: string } | null;
+}
+
+const CoursesDetails = ({ course }: CoursesDetailsProps) => {
   return (
     <>
-    <HeaderOne />
-    <BreadcrumbCoursesDetails />
-    <CoursesDetailsArea />
-    <RelatedCourses />
-    <MarqueeOne style_2={true} />
-    <FooterOne />      
+      <HeaderOne />
+      <BreadcrumbCoursesDetails course={course} />
+      <CoursesDetailsArea />
+      <RelatedCourses />
+      <MarqueeOne style_2={true} />
+      <FooterOne />
     </>
   );
 };

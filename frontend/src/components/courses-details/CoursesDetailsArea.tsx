@@ -22,7 +22,7 @@ const CoursesDetailsArea = () => {
                 <div className="col-lg-8">
                   <div className="courses-details-items">
                     <div className="courses-image">
-                      <img src="assets/img/courses/details-1.jpg" alt="img" />
+                      <img src="/assets/img/courses/details-1.jpg" alt="img" />
                       <a
                         onClick={() => setIsVideoOpen(true)}
                         style={{ cursor: "pointer" }}
@@ -288,7 +288,7 @@ const CoursesDetailsArea = () => {
                               <div className="instructors-box-items">
                                 <div className="thumb">
                                   <img
-                                    src="assets/img/courses/instructors-3.png"
+                                    src="/assets/img/courses/instructors-3.png"
                                     alt="img"
                                   />
                                 </div>
@@ -320,27 +320,27 @@ const CoursesDetailsArea = () => {
                   <div className="courses-sidebar-area sticky-style">
                     <div className="courses-items">
                       <div className="courses-image">
-                        <img src="assets/img/courses/22.jpg" alt="img" />
+                        <img src="/assets/img/courses/22.jpg" alt="img" />
                         <h3 className="courses-title">Foundation Course</h3>
                         <h4 className="topic-title">Stocks</h4>
                         <div className="arrow-items">
                           <div className="GlidingArrow">
-                            <img src="assets/img/courses/a1.png" alt="img" />
+                            <img src="/assets/img/courses/a1.png" alt="img" />
                           </div>
                           <div className="GlidingArrow delay1">
-                            <img src="assets/img/courses/a2.png" alt="img" />
+                            <img src="/assets/img/courses/a2.png" alt="img" />
                           </div>
                           <div className="GlidingArrow delay2">
-                            <img src="assets/img/courses/a3.png" alt="img" />
+                            <img src="/assets/img/courses/a3.png" alt="img" />
                           </div>
                           <div className="GlidingArrow delay3">
-                            <img src="assets/img/courses/a4.png" alt="img" />
+                            <img src="/assets/img/courses/a4.png" alt="img" />
                           </div>
                           <div className="GlidingArrow delay4">
-                            <img src="assets/img/courses/a5.png" alt="img" />
+                            <img src="/assets/img/courses/a5.png" alt="img" />
                           </div>
                           <div className="GlidingArrow delay5">
-                            <img src="assets/img/courses/a6.png" alt="img" />
+                            <img src="/assets/img/courses/a6.png" alt="img" />
                           </div>
                         </div>
                       </div>

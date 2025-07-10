@@ -5,10 +5,23 @@ interface PageProps {
   params: { slug: string };
 }
 
-const CourseSlugPage = ({ params }: PageProps) => {
+const CourseSlugPage = async ({ params }: PageProps) => {
+  let course = null;
+  try {
+    const res = await fetch(
+      `${process.env.NEXT_PUBLIC_API_URL}/api/courses/${params.slug}`,
+      { cache: 'no-store' }
+    );
+    if (res.ok) {
+      course = await res.json();
+    }
+  } catch (e) {
+    console.error('Failed to fetch course', e);
+  }
+
   return (
     <Wrapper>
-      <CoursesDetails />
+      <CoursesDetails course={course} />
     </Wrapper>
   );
 };
