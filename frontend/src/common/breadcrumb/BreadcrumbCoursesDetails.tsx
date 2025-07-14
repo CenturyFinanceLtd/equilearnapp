@@ -3,7 +3,7 @@ import Link from 'next/link';
 import React from 'react';
 
 interface Props {
-  course?: { courseName?: string } | null;
+  course?: { courseName?: string; coursePrice?: string } | null;
 }
 
 const BreadcrumbCoursesDetails = ({ course }: Props) => {
@@ -47,7 +47,7 @@ const BreadcrumbCoursesDetails = ({ course }: Props) => {
                 <div className="client-image-items">
                   <div className="client-content">
                     <span>Price</span>
-                    <h5>$100.00</h5>
+                    <h5>{course?.coursePrice || ""}</h5>
                   </div>
                 </div>
                 <div className="client-image-items">
